@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+html { width: 100%; height:100%; overflow:hidden; }
+
+.fondo {
+	background: url(../Img/img1.png) no-repeat center center;
+	background-size: cover;
+	height: 175px;
+	background-color: azure;
+  }
+.t1 {
+	color: rgb(0, 0, 0); 
+	text-shadow: 0 0 10px rgba(85, 61, 61, 0.3); 
+	letter-spacing:1px;
+	 text-align:center;
+	 font-size: 45px;
+	 position:relative;
+            left:-80px;
+            top:40px;
+ }
+
+ body { 
+  overflow: hidden;
+  width: 100%;
+  height:100%;
+  background:  -webkit-linear-gradient( #89b8ce 0%,#afc1ca 100%);
+}
+
+img {
+	height: auto;
+	width: auto;
+	max-width: 60px;
+	max-height: 60px;
+	background-color: rgb(255, 255, 255);
+
+}
+.Regresar{
+	position: absolute;
+	top: 180px;
+	left: 10px;
+}
+
+.Datos{
+	position: absolute;
+	top: 245px;
+	left: 10px;
+}
+
+.Aprendizaje{
+	position: absolute;
+	top: 305px;
+	left: 14px;
+}
+
+.plan{
+	position: absolute;
+	top: 370px;
+	left: 14px;
+}
+.cal{
+	position: absolute;
+	top: 440px;
+	left: 18px;
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    position: relative;
+    left:500px;
+    top:100px;
+    text-align: center;
+}
+
+.nav > li {
+    float: left;
+   
+}
+
+.nav li a {
+    background-color:#D4A373;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:10px;
+    display: block;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.nav li a:hover {
+    background-color:#71dd95;
+
+}
+
+.nav li  ul {
+    
+    display:none;
+    position: fixed;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+.menu {
+    display: inline-block;
+    min-height: 100vh;
+    width: 80px;
+    background-color: #ffffff;
+    float: left;
+  }
+  .menu ul {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .menu ul li {
+    padding: 32px 0;
+    cursor: pointer;
+    transition: all ease-out 120ms;
+  }
+  .menu ul li i {
+    display: block;
+    font-size: 24px;
+    transition: all ease 450ms;
+  }
+  .menu ul li .emg {
+    display: inline-block;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: -26px;
+    left: 90px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+  .menu ul li .emg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+  }
+  .menu ul li:hover {
+    background-color: #f8faff;
+  }
+  .menu ul li:hover .emg {
+    visibility: visible;
+    opacity: 1;
+  }
+  .menu ul li.active {
+    background-color: #ffffff;
+  }
+  .menu ul li.active i {
+    color: #98D7EC;
+  }
+  @media screen and (max-width: 1400px){
+    .fondo {
+        position: relative;
+        background: url(../Img/img1.png) no-repeat center center;
+        background-size: contain;
+        height: 175px;
+        background-color: rgb(255, 255, 255);
+      }
+
+	.t1 {
+		color: rgb(0, 0, 0); 
+		text-shadow: 0 0 10px rgba(85, 61, 61, 0.3); 
+		letter-spacing:1px;
+		 text-align:center;
+		 font-size: 25px;
+		 position:relative;
+				left:20px;
+				top:40px;
+	 }
+
+   .nav {
+    position: relative;
+    left:180px;
+    top:100px;
+    text-align: center;
+}
+
+.nav li a {
+    background-color:#D4A373;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:5px;
+    display: block;
+    border-radius: 50px;
+    font-size: 20px;
+}
+	
+}
+	

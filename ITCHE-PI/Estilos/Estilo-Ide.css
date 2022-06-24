@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+html { width: 100%; height:100%; overflow:hidden; }
+
+.fondo {
+	background: url(../Img/img1.png) no-repeat center center;
+	background-size: cover;
+	height: 175px;
+	background-color: azure;
+  }
+.t1 {
+	color: rgb(0, 0, 0); 
+	text-shadow: 0 0 10px rgba(85, 61, 61, 0.3); 
+	letter-spacing:1px;
+	 text-align:center;
+	 font-size: 45px;
+	 position:relative;
+            left:80px;
+            top:40px;
+ }
+
+ body { 
+  overflow: hidden;
+  width: 100%;
+  height:100%;
+  background:  -webkit-linear-gradient( #89b8ce 0%,#afc1ca 100%);
+}
+
+img {
+	height: auto;
+	width: auto;
+	max-width: 60px;
+	max-height: 60px;
+	background-color: rgb(255, 255, 255);
+
+}
+.Regresar{
+	position: absolute;
+	top: 180px;
+	left: 10px;
+}
+
+.Datos{
+	position: absolute;
+	top: 245px;
+	left: 10px;
+}
+
+.Aprendizaje{
+	position: absolute;
+	top: 305px;
+	left: 14px;
+}
+
+.plan{
+	position: absolute;
+	top: 370px;
+	left: 14px;
+}
+.cal{
+	position: absolute;
+	top: 440px;
+	left: 18px;
+}
+ul, ol {
+    list-style:none;
+}
+
+.menu {
+    display: inline-block;
+    min-height: 100vh;
+    width: 80px;
+    background-color: #ffffff;
+    float: left;
+  }
+  .menu ul {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .menu ul li {
+    padding: 32px 0;
+    cursor: pointer;
+    transition: all ease-out 120ms;
+  }
+  .menu ul li i {
+    display: block;
+    font-size: 24px;
+    transition: all ease 450ms;
+  }
+  .menu ul li .emg {
+    display: inline-block;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: -26px;
+    left: 90px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+  .menu ul li .emg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+  }
+  .menu ul li:hover {
+    background-color: #f8faff;
+  }
+  .menu ul li:hover .emg {
+    visibility: visible;
+    opacity: 1;
+  }
+  .menu ul li.active {
+    background-color: #ffffff;
+  }
+  .menu ul li.active i {
+    color: #98D7EC;
+  }
+		
+
+.contenedor{
+    position: relative;
+    left:300px;
+    top:50px;
+    display: flex;
+    text-align: center;
+   
+}
+
+.box{
+  position: relative;
+    width: 1200px;
+    height: 600px;
+    border: 15px solid rgb(0, 0, 0);
+    background-color: azure;
+    border-radius: 50px;
+}
+.t1 {
+	color: rgb(0, 0, 0); 
+	text-shadow: 0 0 10px rgba(85, 61, 61, 0.3); 
+	letter-spacing:1px;
+	 text-align:center;
+	 font-size: 35px;
+	 position:relative;
+            left:5px;
+            top:5px;
+         
+    }    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border: solid;
+      }
+      th {
+        padding: 10px 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: left;
+        border: solid;
+      }
+      td {
+        padding: 13.7px 25px;
+        font-size: 16px;
+        border: solid;
+      }
+      input{
+          width: 16px;
+      }
+      @media screen and (max-width: 1400px){
+        .fondo {
+            position: relative;
+            background: url(../Img/img1.png) no-repeat center center;
+            background-size: contain;
+            height: 175px;
+            background-color: rgb(255, 255, 255);
+          }
+    
+      .t1 {
+        color: rgb(0, 0, 0); 
+        text-shadow: 0 0 10px rgba(85, 61, 61, 0.3); 
+        letter-spacing:1px;
+         text-align:center;
+         font-size: 25px;
+         position:relative;
+            left:10px;
+            top:0px;
+       }
+       .contenedor{
+        position: relative;
+        left:60px;
+        top:40px;
+        display: flex;
+        text-align: center;
+       
+    }
+    
+    .box{
+      position: relative;
+        width: 800px;
+        height: 500px;
+        border: 10px solid rgb(0, 0, 0);
+        background-color: azure;
+        border-radius: 50px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      border: solid;
+    }
+    th {
+      padding: 9px 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: left;
+      border: solid;
+    }
+    td {
+      padding: 10px 5px;
+      font-size: 16px;
+      border: solid;
+    }
+    input{
+        width: 16px;
+    }
+    
+    }
+      
+    
